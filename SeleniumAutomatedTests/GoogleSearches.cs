@@ -25,7 +25,7 @@ namespace SeleniumAutomatedTests
         }
 
         [TestMethod]
-        public void OpenAmazon()
+        public void AmazonSearch()
         {
             driver.Navigate().GoToUrl(site);
 
